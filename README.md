@@ -1,4 +1,8 @@
-# 🧠 Agentic Quantum Neural Network Pipeline — ML4SCI GSoC 2026 (QMLHEP)
+> This repository contains my solution for the ML4SCI (QMLHEP) GSoC 2026 evaluation task.
+
+# 🧠 Agentic Quantum Neural Network Pipeline for Closed-Loop Circuit Optimization — ML4SCI GSoC 2026 (QMLHEP)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zvQnLKAgY-2C_t4qwyLI9Y_jKEw8YhH2?usp=sharing)
 
 > **GSoC 2026 Evaluation Task | ML4SCI Organization | QMLHEP Track**  
 > A closed-loop, agent-driven pipeline for quantum circuit design, QNN training, and hyperparameter optimization.
@@ -9,7 +13,9 @@
 
 This repository implements an **agentic quantum neural network (QNN) pipeline** as part of the GSoC 2026 evaluation under the [ML4SCI](https://ml4sci.org/) organization's **QMLHEP** (Quantum Machine Learning for High Energy Physics) track.
 
-The system follows an orchestrator-agent design pattern — inspired by Orchestral AI — where a central controller dispatches specialized tools to explore Hilbert spaces, train parameterized quantum circuits, evaluate performance, and iteratively refine hyperparameters. This architecture is a direct proof-of-concept for **closed-loop LLM-guided quantum circuit design**, where an intelligent agent autonomously drives the full quantum ML lifecycle without manual intervention.
+An orchestrator-agent architecture inspired by Orchestral AI, where a central controller coordinates specialized tools to explore Hilbert spaces, train parameterized quantum circuits, evaluate performance, and iteratively refine hyperparameters. This architecture is a direct proof-of-concept for **closed-loop LLM-guided quantum circuit design**, where an intelligent agent autonomously drives the full quantum ML lifecycle without manual intervention.
+
+This approach reduces manual experimentation in quantum circuit design and demonstrates how intelligent agents can efficiently navigate complex quantum search spaces.
 
 ---
 
@@ -115,7 +121,9 @@ jupyter notebook QMLHEP_GSoC_Evaluation.ipynb
 
 ## Notebook
 
-📓 **[View Notebook on Google Colab](#)** *(link to be added upon submission)*
+📓 **[View Notebook on Google Colab](https://colab.research.google.com/drive/1zvQnLKAgY-2C_t4qwyLI9Y_jKEw8YhH2?usp=sharing)**
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zvQnLKAgY-2C_t4qwyLI9Y_jKEw8YhH2?usp=sharing)
 
 The notebook contains all experiments, training curves, circuit diagrams, and reproducible results for the GSoC 2026 QMLHEP evaluation task.
 
