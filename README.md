@@ -5,7 +5,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zvQnLKAgY-2C_t4qwyLI9Y_jKEw8YhH2?usp=sharing)
 
 > **GSoC 2026 Evaluation Task | ML4SCI Organization | QMLHEP Track**  
-> A closed-loop, agent-driven pipeline for quantum circuit design, QNN training, and hyperparameter optimization.
+> A closed-loop, agent-driven pipeline for quantum circuit design, training, and optimization of quantum neural networks.
 
 ---
 
@@ -85,9 +85,13 @@ This approach reduces manual experimentation in quantum circuit design and demon
 pip install pennylane torch torchvision numpy matplotlib
 ```
 
-### Run the Notebook
+### Quick Run (Colab)
 
-Open `QMLHEP_GSoC_Evaluation.ipynb` in Google Colab or Jupyter and run all cells sequentially.
+Click the **Open in Colab** badge at the top and run all cells — no setup required.
+
+### Local Run
+
+Open `QMLHEP_GSoC_Evaluation.ipynb` in Jupyter and run all cells sequentially.
 
 ```bash
 jupyter notebook QMLHEP_GSoC_Evaluation.ipynb
@@ -122,8 +126,6 @@ jupyter notebook QMLHEP_GSoC_Evaluation.ipynb
 ## Notebook
 
 📓 **[View Notebook on Google Colab](https://colab.research.google.com/drive/1zvQnLKAgY-2C_t4qwyLI9Y_jKEw8YhH2?usp=sharing)**
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zvQnLKAgY-2C_t4qwyLI9Y_jKEw8YhH2?usp=sharing)
 
 The notebook contains all experiments, training curves, circuit diagrams, and reproducible results for the GSoC 2026 QMLHEP evaluation task.
 
